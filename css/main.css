@@ -134,7 +134,7 @@ body {
 }
 
 .teal {
-    background: #1EC6CE;
+    background: #FF6550;
 }
 
 .blog-post-content .main-image {
@@ -273,7 +273,7 @@ animation-fill-mode: both;
 
 .main-nav-content:hover {
   background:white;
-  color:#1EC6CE;
+  color:#FF6550;
 }
 
 
@@ -341,7 +341,11 @@ margin-right: 12px;
 
 .main-nav:hover a.button {
   padding:2em 1.3em;
-  border-left: 1px solid rgba(30, 198, 206, .5);
+  border-left: 1px solid rgba(255, 101, 80, 0.13);
+}
+
+.main-nav:hover a.button:hover {
+  background:rgba(255, 101, 80, 0.13);
 }
 
 .story-wrapper {
@@ -391,9 +395,10 @@ body {
 }
 
 .showblogpost.teal .blog-post-content{
-  color:#1EC6CE;
+  color:#FF6550;
   height:70vh;
   min-height:500px;
+  
 }
 
 .main-image {
@@ -433,7 +438,7 @@ body {
 
 .showblogpost .main-nav-content {
   background:white;
-  color:#1EC6CE;
+  color:#FF6550;
 }
 
 .blog-post-content h1 a {
@@ -441,7 +446,7 @@ body {
 }
 
 .showblogpost .blog-post-content h1 a {
-  color: #1EC6CE;
+  color: #FF6550;
   border-bottom: .1em solid transparent!important;
 }
 
@@ -451,7 +456,7 @@ body {
   float:left;
 font-family: 'Montserrat', sans-serif;
 font-size: 116px;
-color: #1EC6CE;
+color: #FF6550;
 letter-spacing: 9.21px;
 }
 
@@ -460,7 +465,7 @@ svg #Logo, svg #Designers {
 }
 
 .showblogpost.teal svg #Logo, .showblogpost.teal svg #Designers {
-  fill:#1EC6CE;
+  fill:#FF6550;
 }
 
 svg #Line{
@@ -468,7 +473,7 @@ svg #Line{
 }
 
 .showblogpost.teal svg #Line{
-  stroke:#1EC6CE;
+  stroke:#FF6550;
 }
 
 .logotype {
@@ -496,17 +501,17 @@ font-family: 'Montserrat', sans-serif;
 line-height: 1;
 font-weight: 600;
 font-size: 58px;
-color: #1EC6CE;
+color: #FF6550;
 }
 
 .blog-post-full h2,.blog-post-full h3,.blog-post-full h4{
-color: #1EC6CE;
+color: #FF6550;
 font-family: 'Montserrat', sans-serif;
 font-weight: normal;
 }
 
 .teal .final-callout {
-  background: #1EC6CE;
+  background: #FF6550;
   padding:20vh 2em;
   text-align:center;
 }
@@ -555,7 +560,7 @@ font-family: 'Montserrat', sans-serif;
   font-weight: 600;
   line-height: 1;
   font-size: 24px;
-  color: #1EC6CE;
+  color: #FF6550;
   }
 
   .col-3 {
